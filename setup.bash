@@ -4,6 +4,7 @@ function install_packages() {
   apk add --no-cache \
     curl \
     nodejs \
+    npm \
     wireguard-tools
 }
 
