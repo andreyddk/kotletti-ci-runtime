@@ -2,6 +2,7 @@
 
 function install_packages() {
   apk add --no-cache \
+    build-base \
     curl \
     nodejs \
     npm \
