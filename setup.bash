@@ -2,6 +2,7 @@
 
 function install_packages() {
   apk add --no-cache \
+    openssh \
     build-base \
     protoc \
     curl \
