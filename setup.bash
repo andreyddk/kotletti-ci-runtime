@@ -2,6 +2,8 @@
 
 function install_packages() {
   apk add --no-cache \
+    docker \
+    git \
     openssh \
     build-base \
     protoc \
