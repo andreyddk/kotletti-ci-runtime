@@ -2,6 +2,10 @@
 
 function install_packages() {
   apk add --no-cache \
+    musl \
+    musl-dev \
+    openssl-dev \
+    pkgconfig \
     docker \
     git \
     openssh \
@@ -10,7 +14,9 @@ function install_packages() {
     curl \
     nodejs \
     npm \
-    wireguard-tools
+    wireguard-tools \
+    cargo-edit \
+    gettext
 }
 
 function install_rust() {
